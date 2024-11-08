@@ -5,7 +5,7 @@ import 'dart:convert';
 import 'package:location/location.dart';
 
 void main() async {
-  await dotenv.load(fileName: 'apikey.env');
+  await dotenv.load(fileName: '.env');
 
   runApp(const MyApp());
 }
